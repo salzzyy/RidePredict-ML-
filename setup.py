@@ -8,7 +8,7 @@ setup(
     version="0.1",
     author="Saloni Singh",
     packages=find_packages(),
-    install_requires=[req for req in requirements if req and not req.startswith("-e")],  # ✅ Fix
+    install_requires=[req for req in requirements if req and not req.startswith("-e")],  
 )
 
 
